@@ -1,0 +1,48 @@
+# Local environments
+.codex
+.pixi/*
+!.pixi/config.toml
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*/__pycache__/
+*.py[cod]
+
+# Experiment caches and temporary outputs
+experiments/cache/
+output/
+archive/
+
+# Local data files are hosted separately
+data/
+yolov8*.pt
+build_yolov8_feature_table.py
+extract_yolov8_detections.py
+yolo_utils.py
+experiments/train_multimodal_fusion.py
+experiments/fusion_utils.py
+models/fusion_mlp.py
+
+# Generated figures kept outside the curated paper results package
+figs/
+
+# LaTeX build artifacts
+paper
+sn-bibliography.bib
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+*.pdf
