@@ -29,7 +29,7 @@ models/fusion_mlp.py
 figs/
 
 # LaTeX build artifacts
-paper
+/paper
 sn-bibliography.bib
 *.aux
 *.bbl
