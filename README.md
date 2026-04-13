@@ -1,4 +1,4 @@
-# Interpretable Popularity Prediction for Taiwanese YouTube News Shorts
+# An Interpretable Machine Learning Framework for Predicting the Popularity of YouTube News Shorts
 
 This repository contains the code and curated experiment outputs for a study on publication-time popularity prediction for Taiwanese YouTube News Shorts.
 
